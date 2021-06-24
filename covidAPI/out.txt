@@ -1,0 +1,3205 @@
+감염 현황 데이터 조회 기준시 : (4.13. 00시 기준)
+
+{
+확진환자 : {
+  누적 : 110,688
+  전일대비 : {'소계': '+ 542', '국내발생': '528', '해외유입': '14'}
+}
+격리해제 : {
+  누적 : 101,332
+  전일대비 : + 528
+}
+격리중 : {
+  누적 : 7,581
+  전일대비 : + 9
+}
+사망 : {
+  누적 : 1,775
+  전일대비 : + 5
+}
+}
+
+시도별 데이터 조회 기준시 : 04.13. 00:00 집계 기준
+
+{'count': '1,560', 'diff': '13', 'qurRate': '105.82', 'rate': '1.4%'}
+{
+서울 : {
+  count : 34,391
+  diff : 158
+  qurRate : 353.33
+  rate : 31.0%
+}
+경기 : {
+  count : 30,727
+  diff : 168
+  qurRate : 231.90
+  rate : 27.7%
+}
+대구 : {
+  count : 9,094
+  diff : 9
+  qurRate : 373.24
+  rate : 8.2%
+}
+인천 : {
+  count : 5,380
+  diff : 16
+  qurRate : 182.00
+  rate : 4.8%
+}
+부산 : {
+  count : 4,432
+  diff : 39
+  qurRate : 129.90
+  rate : 4.0%
+}
+경북 : {
+  count : 3,710
+  diff : 10
+  qurRate : 139.34
+  rate : 3.3%
+}
+경남 : {
+  count : 3,205
+  diff : 15
+  qurRate : 95.35
+  rate : 2.9%
+}
+충남 : {
+  count : 2,817
+  diff : 14
+  qurRate : 132.72
+  rate : 2.5%
+}
+강원 : {
+  count : 2,468
+  diff : 13
+  qurRate : 160.20
+  rate : 2.2%
+}
+충북 : {
+  count : 2,355
+  diff : 8
+  qurRate : 147.24
+  rate : 2.1%
+}
+광주 : {
+  count : 2,247
+  diff : 9
+  qurRate : 154.25
+  rate : 2.0%
+}
+전북 : {
+  count : 1,745
+  diff : 25
+  qurRate : 96.02
+  rate : 1.5%
+}
+대전 : {
+  count : 1,560
+  diff : 13
+  qurRate : 105.82
+  rate : 1.4%
+}
+울산 : {
+  count : 1,335
+  diff : 32
+  qurRate : 116.39
+  rate : 1.2%
+}
+전남 : {
+  count : 978
+  diff : 6
+  qurRate : 52.45
+  rate : 0.8%
+}
+제주 : {
+  count : 663
+  diff : 0
+  qurRate : 98.84
+  rate : 0.6%
+}
+세종 : {
+  count : 333
+  diff : 2
+  qurRate : 97.28
+  rate : 0.3%
+}
+}
+
+국가별 데이터 조회 기준시 : 04.13. 14:00 집계 기준
+
+{
+patient_diff : 623,419
+patient_sum : 136,500,756
+death_diff : 9,311
+death_sum : 2,944,769
+death_percent : 2.2
+}
+
+{'active_cnt': '7,581', 'continent': 'continent_asia', 'death_cnt': '1,775', 'death_diff': '5', 'death_percent': '1.6', 'localInfection': True, 'nation_cd': 'KOR', 'patient_cnt': '110,688', 'patient_diff': '542'}
+
+{
+미국 : {
+  active_cnt : N/A
+  continent : continent_america
+  death_cnt : 560,195
+  death_diff : 448
+  death_percent : 1.8
+  localInfection : True
+  nation_cd : USA
+  patient_cnt : 31,139,981
+  patient_diff : 68,733
+}
+인도 : {
+  active_cnt : 1,201,009
+  continent : continent_asia
+  death_cnt : 170,179
+  death_diff : 904
+  death_percent : 1.3
+  localInfection : True
+  nation_cd : IND
+  patient_cnt : 13,527,717
+  patient_diff : 168,912
+}
+브라질 : {
+  active_cnt : 1,270,962
+  continent : continent_america
+  death_cnt : 354,617
+  death_diff : 1,480
+  death_percent : 2.6
+  localInfection : True
+  nation_cd : BRA
+  patient_cnt : 13,517,808
+  patient_diff : 35,785
+}
+프랑스 : {
+  active_cnt : 4,652,662
+  continent : continent_europe
+  death_cnt : 98,508
+  death_diff : 385
+  death_percent : 2.0
+  localInfection : True
+  nation_cd : FRA
+  patient_cnt : 5,030,838
+  patient_diff : 8,541
+}
+러시아 : {
+  active_cnt : 272,258
+  continent : continent_europe
+  death_cnt : 101,552
+  death_diff : 270
+  death_percent : 2.2
+  localInfection : False
+  nation_cd : RUS
+  patient_cnt : 4,597,400
+  patient_diff : 8,191
+}
+영국 : {
+  active_cnt : 4,246,252
+  continent : continent_europe
+  death_cnt : 127,186
+  death_diff : 13
+  death_percent : 2.9
+  localInfection : True
+  nation_cd : GBR
+  patient_cnt : 4,377,398
+  patient_diff : 3,568
+}
+터키 : {
+  active_cnt : 496,762
+  continent : continent_europe
+  death_cnt : 34,182
+  death_diff : 243
+  death_percent : 0.9
+  localInfection : False
+  nation_cd : TUR
+  patient_cnt : 3,903,573
+  patient_diff : 54,562
+}
+이탈리아 : {
+  active_cnt : 524,417
+  continent : continent_europe
+  death_cnt : 114,612
+  death_diff : 358
+  death_percent : 3.0
+  localInfection : True
+  nation_cd : ITA
+  patient_cnt : 3,779,594
+  patient_diff : 9,780
+}
+스페인 : {
+  active_cnt : 3,143,355
+  continent : continent_europe
+  death_cnt : 76,525
+  death_diff : 197
+  death_percent : 2.3
+  localInfection : True
+  nation_cd : ESP
+  patient_cnt : 3,370,256
+  patient_diff : 22,744
+}
+독일 : {
+  active_cnt : 237,488
+  continent : continent_europe
+  death_cnt : 78,796
+  death_diff : 296
+  death_percent : 2.6
+  localInfection : True
+  nation_cd : DEU
+  patient_cnt : 3,024,604
+  patient_diff : 12,446
+}
+폴란드 : {
+  active_cnt : 330,384
+  continent : continent_europe
+  death_cnt : 58,481
+  death_diff : 60
+  death_percent : 2.3
+  localInfection : True
+  nation_cd : POL
+  patient_cnt : 2,586,647
+  patient_diff : 12,016
+}
+콜롬비아 : {
+  active_cnt : 91,048
+  continent : continent_america
+  death_cnt : 66,156
+  death_diff : 267
+  death_percent : 2.6
+  localInfection : True
+  nation_cd : COL
+  patient_cnt : 2,552,937
+  patient_diff : 16,739
+}
+아르헨티나 : {
+  active_cnt : 246,918
+  continent : continent_america
+  death_cnt : 57,957
+  death_diff : 178
+  death_percent : 2.3
+  localInfection : True
+  nation_cd : ARG
+  patient_cnt : 2,551,999
+  patient_diff : 19,437
+}
+멕시코 : {
+  active_cnt : 306,894
+  continent : continent_america
+  death_cnt : 209,702
+  death_diff : 364
+  death_percent : 9.2
+  localInfection : False
+  nation_cd : MEX
+  patient_cnt : 2,281,840
+  patient_diff : 1,627
+}
+이란 : {
+  active_cnt : 308,604
+  continent : continent_mideast
+  death_cnt : 64,764
+  death_diff : 274
+  death_percent : 3.1
+  localInfection : True
+  nation_cd : IRN
+  patient_cnt : 2,093,452
+  patient_diff : 23,311
+}
+우크라이나 : {
+  active_cnt : 409,613
+  continent : continent_europe
+  death_cnt : 39,012
+  death_diff : 294
+  death_percent : 2.0
+  localInfection : True
+  nation_cd : UKR
+  patient_cnt : 1,913,415
+  patient_diff : 7,985
+}
+페루 : {
+  active_cnt : 22,848
+  continent : continent_america
+  death_cnt : 55,230
+  death_diff : 327
+  death_percent : 3.3
+  localInfection : True
+  nation_cd : PER
+  patient_cnt : 1,653,320
+  patient_diff : 5,626
+}
+체코 : {
+  active_cnt : 86,970
+  continent : continent_europe
+  death_cnt : 27,918
+  death_diff : 110
+  death_percent : 1.8
+  localInfection : True
+  nation_cd : CZE
+  patient_cnt : 1,581,184
+  patient_diff : 995
+}
+인도네시아 : {
+  active_cnt : 109,372
+  continent : continent_asia
+  death_cnt : 42,656
+  death_diff : 126
+  death_percent : 2.7
+  localInfection : True
+  nation_cd : IDN
+  patient_cnt : 1,571,824
+  patient_diff : 4,829
+}
+남아프리카공화국 : {
+  active_cnt : 21,401
+  continent : continent_africa
+  death_cnt : 53,356
+  death_diff : 34
+  death_percent : 3.4
+  localInfection : True
+  nation_cd : ZAF
+  patient_cnt : 1,559,113
+  patient_diff : 655
+}
+네덜란드 : {
+  active_cnt : 1,340,549
+  continent : continent_europe
+  death_cnt : 16,791
+  death_diff : 20
+  death_percent : 1.2
+  localInfection : True
+  nation_cd : NLD
+  patient_cnt : 1,357,340
+  patient_diff : 6,675
+}
+칠레 : {
+  active_cnt : 45,533
+  continent : continent_america
+  death_cnt : 24,483
+  death_diff : 137
+  death_percent : 2.3
+  localInfection : True
+  nation_cd : CHL
+  patient_cnt : 1,082,920
+  patient_diff : 6,421
+}
+캐나다 : {
+  active_cnt : 75,290
+  continent : continent_america
+  death_cnt : 23,336
+  death_diff : 42
+  death_percent : 2.2
+  localInfection : True
+  nation_cd : CAN
+  patient_cnt : 1,078,482
+  patient_diff : 10,718
+}
+루마니아 : {
+  active_cnt : 72,944
+  continent : continent_europe
+  death_cnt : 25,248
+  death_diff : 113
+  death_percent : 2.5
+  localInfection : True
+  nation_cd : ROU
+  patient_cnt : 1,008,490
+  patient_diff : 2,323
+}
+이라크 : {
+  active_cnt : 97,610
+  continent : continent_mideast
+  death_cnt : 14,757
+  death_diff : 44
+  death_percent : 1.6
+  localInfection : True
+  nation_cd : IRQ
+  patient_cnt : 932,899
+  patient_diff : 7,953
+}
+벨기에 : {
+  active_cnt : 903,726
+  continent : continent_europe
+  death_cnt : 23,503
+  death_diff : 30
+  death_percent : 2.5
+  localInfection : True
+  nation_cd : BEL
+  patient_cnt : 927,229
+  patient_diff : 1,753
+}
+필리핀 : {
+  active_cnt : 157,451
+  continent : continent_asia
+  death_cnt : 15,149
+  death_diff : 204
+  death_percent : 1.7
+  localInfection : True
+  nation_cd : PHL
+  patient_cnt : 876,225
+  patient_diff : 11,357
+}
+스웨덴 : {
+  active_cnt : 843,780
+  continent : continent_europe
+  death_cnt : 13,621
+  death_diff : 0
+  death_percent : 1.6
+  localInfection : True
+  nation_cd : SWE
+  patient_cnt : 857,401
+  patient_diff : 0
+}
+이스라엘 : {
+  active_cnt : 3,360
+  continent : continent_mideast
+  death_cnt : 6,304
+  death_diff : 8
+  death_percent : 0.8
+  localInfection : True
+  nation_cd : ISR
+  patient_cnt : 836,158
+  patient_diff : 225
+}
+포르투갈 : {
+  active_cnt : 25,784
+  continent : continent_europe
+  death_cnt : 16,918
+  death_diff : 2
+  death_percent : 2.0
+  localInfection : True
+  nation_cd : PRT
+  patient_cnt : 827,765
+  patient_diff : 271
+}
+파키스탄 : {
+  active_cnt : 76,034
+  continent : continent_asia
+  death_cnt : 15,619
+  death_diff : 118
+  death_percent : 2.1
+  localInfection : True
+  nation_cd : PAK
+  patient_cnt : 729,920
+  patient_diff : 4,318
+}
+헝가리 : {
+  active_cnt : 272,459
+  continent : continent_europe
+  death_cnt : 23,708
+  death_diff : 291
+  death_percent : 3.3
+  localInfection : True
+  nation_cd : HUN
+  patient_cnt : 725,241
+  patient_diff : 5,077
+}
+방글라데시 : {
+  active_cnt : 101,022
+  continent : continent_asia
+  death_cnt : 9,822
+  death_diff : 83
+  death_percent : 1.4
+  localInfection : True
+  nation_cd : BGD
+  patient_cnt : 691,957
+  patient_diff : 7,201
+}
+요르단 : {
+  active_cnt : 57,401
+  continent : continent_mideast
+  death_cnt : 7,855
+  death_diff : 82
+  death_percent : 1.2
+  localInfection : False
+  nation_cd : JOR
+  patient_cnt : 669,300
+  patient_diff : 3,565
+}
+세르비아 : {
+  active_cnt : 639,400
+  continent : continent_europe
+  death_cnt : 5,773
+  death_diff : 38
+  death_percent : 0.9
+  localInfection : False
+  nation_cd : SCG
+  patient_cnt : 645,173
+  patient_diff : 2,965
+}
+스위스 : {
+  active_cnt : 295,060
+  continent : continent_europe
+  death_cnt : 10,466
+  death_diff : 13
+  death_percent : 1.7
+  localInfection : True
+  nation_cd : CHE
+  patient_cnt : 623,126
+  patient_diff : 5,583
+}
+오스트리아 : {
+  active_cnt : 30,635
+  continent : continent_europe
+  death_cnt : 9,706
+  death_diff : 19
+  death_percent : 1.7
+  localInfection : True
+  nation_cd : AUT
+  patient_cnt : 578,950
+  patient_diff : 1,943
+}
+일본 : {
+  active_cnt : 33,197
+  continent : continent_asia
+  death_cnt : 9,393
+  death_diff : 24
+  death_percent : 1.8
+  localInfection : True
+  nation_cd : JPN
+  patient_cnt : 508,350
+  patient_diff : 2,113
+}
+모로코 : {
+  active_cnt : 4,736
+  continent : continent_mideast
+  death_cnt : 8,909
+  death_diff : 9
+  death_percent : 1.8
+  localInfection : True
+  nation_cd : MAR
+  patient_cnt : 502,277
+  patient_diff : 175
+}
+레바논 : {
+  active_cnt : 85,056
+  continent : continent_mideast
+  death_cnt : 6,703
+  death_diff : 42
+  death_percent : 1.3
+  localInfection : True
+  nation_cd : LBN
+  patient_cnt : 497,854
+  patient_diff : 1,008
+}
+아랍에미리트 : {
+  active_cnt : 13,967
+  continent : continent_mideast
+  death_cnt : 1,533
+  death_diff : 2
+  death_percent : 0.3
+  localInfection : True
+  nation_cd : ARE
+  patient_cnt : 485,675
+  patient_diff : 1,928
+}
+사우디아라비아 : {
+  active_cnt : 8,485
+  continent : continent_mideast
+  death_cnt : 6,765
+  death_diff : 11
+  death_percent : 1.7
+  localInfection : True
+  nation_cd : SAU
+  patient_cnt : 399,277
+  patient_diff : 842
+}
+불가리아 : {
+  active_cnt : 71,140
+  continent : continent_europe
+  death_cnt : 14,619
+  death_diff : 201
+  death_percent : 3.9
+  localInfection : True
+  nation_cd : BGR
+  patient_cnt : 375,115
+  patient_diff : 3,122
+}
+슬로바키아 : {
+  active_cnt : 105,238
+  continent : continent_europe
+  death_cnt : 10,630
+  death_diff : 65
+  death_percent : 2.9
+  localInfection : False
+  nation_cd : SVK
+  patient_cnt : 371,168
+  patient_diff : 106
+}
+말레이시아 : {
+  active_cnt : 15,835
+  continent : continent_asia
+  death_cnt : 1,333
+  death_diff : 4
+  death_percent : 0.4
+  localInfection : True
+  nation_cd : MYS
+  patient_cnt : 362,173
+  patient_diff : 1,317
+}
+파나마 : {
+  active_cnt : 4,071
+  continent : continent_america
+  death_cnt : 6,167
+  death_diff : 4
+  death_percent : 1.7
+  localInfection : True
+  nation_cd : PAN
+  patient_cnt : 358,792
+  patient_diff : 181
+}
+에콰도르 : {
+  active_cnt : 39,458
+  continent : continent_america
+  death_cnt : 17,298
+  death_diff : 5
+  death_percent : 5.0
+  localInfection : True
+  nation_cd : ECU
+  patient_cnt : 347,070
+  patient_diff : 253
+}
+벨라루스 : {
+  active_cnt : 7,431
+  continent : continent_europe
+  death_cnt : 2,363
+  death_diff : 9
+  death_percent : 0.7
+  localInfection : True
+  nation_cd : BLR
+  patient_cnt : 336,881
+  patient_diff : 843
+}
+카자흐스탄 : {
+  active_cnt : 35,898
+  continent : continent_asia
+  death_cnt : 3,271
+  death_diff : 4
+  death_percent : 1.0
+  localInfection : False
+  nation_cd : KAZ
+  patient_cnt : 325,234
+  patient_diff : 2,027
+}
+그리스 : {
+  active_cnt : 194,361
+  continent : continent_europe
+  death_cnt : 8,961
+  death_diff : 76
+  death_percent : 3.0
+  localInfection : True
+  nation_cd : GRC
+  patient_cnt : 297,086
+  patient_diff : 1,606
+}
+크로아티아 : {
+  active_cnt : 11,844
+  continent : continent_europe
+  death_cnt : 6,333
+  death_diff : 25
+  death_percent : 2.2
+  localInfection : True
+  nation_cd : HRV
+  patient_cnt : 292,938
+  patient_diff : 422
+}
+조지아 : {
+  active_cnt : 7,043
+  continent : continent_europe
+  death_cnt : 3,883
+  death_diff : 6
+  death_percent : 1.3
+  localInfection : False
+  nation_cd : GEO
+  patient_cnt : 288,755
+  patient_diff : 359
+}
+아제르바이잔 : {
+  active_cnt : 31,440
+  continent : continent_europe
+  death_cnt : 3,944
+  death_diff : 29
+  death_percent : 1.4
+  localInfection : False
+  nation_cd : AZE
+  patient_cnt : 287,144
+  patient_diff : 1,151
+}
+볼리비아 : {
+  active_cnt : 38,193
+  continent : continent_america
+  death_cnt : 12,469
+  death_diff : 18
+  death_percent : 4.4
+  localInfection : False
+  nation_cd : BOL
+  patient_cnt : 283,084
+  patient_diff : 989
+}
+네팔 : {
+  active_cnt : 3,306
+  continent : continent_asia
+  death_cnt : 3,053
+  death_diff : 13
+  death_percent : 1.1
+  localInfection : False
+  nation_cd : NPL
+  patient_cnt : 280,524
+  patient_diff : 496
+}
+튀니지 : {
+  active_cnt : 37,538
+  continent : continent_mideast
+  death_cnt : 9,332
+  death_diff : 39
+  death_percent : 3.4
+  localInfection : True
+  nation_cd : TUN
+  patient_cnt : 272,940
+  patient_diff : 1,079
+}
+팔레스타인 : {
+  active_cnt : 33,275
+  continent : continent_etc
+  death_cnt : 2,883
+  death_diff : 23
+  death_percent : 1.1
+  localInfection : True
+  nation_cd : PSE
+  patient_cnt : 270,856
+  patient_diff : 2,724
+}
+도미니카공화국 : {
+  active_cnt : 37,867
+  continent : continent_america
+  death_cnt : 3,392
+  death_diff : 4
+  death_percent : 1.3
+  localInfection : False
+  nation_cd : DOM
+  patient_cnt : 258,039
+  patient_diff : 341
+}
+쿠웨이트 : {
+  active_cnt : 14,761
+  continent : continent_mideast
+  death_cnt : 1,412
+  death_diff : 5
+  death_percent : 0.6
+  localInfection : True
+  nation_cd : KWT
+  patient_cnt : 248,729
+  patient_diff : 1,635
+}
+몰도바 : {
+  active_cnt : 12,589
+  continent : continent_europe
+  death_cnt : 5,409
+  death_diff : 21
+  death_percent : 2.2
+  localInfection : False
+  nation_cd : MDA
+  patient_cnt : 241,820
+  patient_diff : 603
+}
+아일랜드 : {
+  active_cnt : 213,181
+  continent : continent_europe
+  death_cnt : 4,785
+  death_diff : 0
+  death_percent : 2.0
+  localInfection : True
+  nation_cd : IRL
+  patient_cnt : 241,330
+  patient_diff : 385
+}
+덴마크 : {
+  active_cnt : 8,619
+  continent : continent_europe
+  death_cnt : 2,443
+  death_diff : 2
+  death_percent : 1.0
+  localInfection : True
+  nation_cd : DNK
+  patient_cnt : 238,306
+  patient_diff : 514
+}
+파라과이 : {
+  active_cnt : 37,666
+  continent : continent_america
+  death_cnt : 4,889
+  death_diff : 62
+  death_percent : 2.1
+  localInfection : True
+  nation_cd : PRY
+  patient_cnt : 237,542
+  patient_diff : 2,250
+}
+에티오피아 : {
+  active_cnt : 55,756
+  continent : continent_africa
+  death_cnt : 3,208
+  death_diff : 34
+  death_percent : 1.4
+  localInfection : False
+  nation_cd : ETH
+  patient_cnt : 230,944
+  patient_diff : 1,948
+}
+슬로베니아 : {
+  active_cnt : 13,818
+  continent : continent_europe
+  death_cnt : 4,126
+  death_diff : 7
+  death_percent : 1.8
+  localInfection : True
+  nation_cd : SVN
+  patient_cnt : 226,786
+  patient_diff : 287
+}
+리투아니아 : {
+  active_cnt : 17,121
+  continent : continent_europe
+  death_cnt : 3,697
+  death_diff : 10
+  death_percent : 1.6
+  localInfection : False
+  nation_cd : LTU
+  patient_cnt : 226,783
+  patient_diff : 610
+}
+코스타리카 : {
+  active_cnt : 24,766
+  continent : continent_america
+  death_cnt : 3,018
+  death_diff : 0
+  death_percent : 1.4
+  localInfection : True
+  nation_cd : CRI
+  patient_cnt : 222,544
+  patient_diff : 0
+}
+이집트 : {
+  active_cnt : 38,821
+  continent : continent_mideast
+  death_cnt : 12,487
+  death_diff : 42
+  death_percent : 5.9
+  localInfection : True
+  nation_cd : EGY
+  patient_cnt : 211,307
+  patient_diff : 818
+}
+아르메니아 : {
+  active_cnt : 16,738
+  continent : continent_europe
+  death_cnt : 3,753
+  death_diff : 18
+  death_percent : 1.8
+  localInfection : True
+  nation_cd : ARM
+  patient_cnt : 203,327
+  patient_diff : 510
+}
+과테말라 : {
+  active_cnt : 10,162
+  continent : continent_america
+  death_cnt : 7,020
+  death_diff : 4
+  death_percent : 3.5
+  localInfection : False
+  nation_cd : GTM
+  patient_cnt : 203,309
+  patient_diff : 238
+}
+온두라스 : {
+  active_cnt : 115,273
+  continent : continent_america
+  death_cnt : 4,861
+  death_diff : 57
+  death_percent : 2.5
+  localInfection : False
+  nation_cd : HND
+  patient_cnt : 196,086
+  patient_diff : 306
+}
+카타르 : {
+  active_cnt : 20,469
+  continent : continent_mideast
+  death_cnt : 335
+  death_diff : 2
+  death_percent : 0.2
+  localInfection : True
+  nation_cd : QAT
+  patient_cnt : 190,998
+  patient_diff : 973
+}
+보스니아헤르체고비나 : {
+  active_cnt : 35,609
+  continent : continent_europe
+  death_cnt : 7,487
+  death_diff : 189
+  death_percent : 4.1
+  localInfection : True
+  nation_cd : BIH
+  patient_cnt : 184,698
+  patient_diff : 2,771
+}
+베네수엘라 : {
+  active_cnt : 15,618
+  continent : continent_america
+  death_cnt : 1,795
+  death_diff : 17
+  death_percent : 1.0
+  localInfection : False
+  nation_cd : VEN
+  patient_cnt : 175,812
+  patient_diff : 925
+}
+오만 : {
+  active_cnt : 17,254
+  continent : continent_mideast
+  death_cnt : 1,789
+  death_diff : 13
+  death_percent : 1.0
+  localInfection : False
+  nation_cd : OMN
+  patient_cnt : 173,029
+  patient_diff : 1,480
+}
+리비아 : {
+  active_cnt : 12,204
+  continent : continent_mideast
+  death_cnt : 2,828
+  death_diff : 5
+  death_percent : 1.7
+  localInfection : False
+  nation_cd : LBY
+  patient_cnt : 168,676
+  patient_diff : 851
+}
+나이지리아 : {
+  active_cnt : 7,599
+  continent : continent_africa
+  death_cnt : 2,061
+  death_diff : 1
+  death_percent : 1.3
+  localInfection : False
+  nation_cd : NGA
+  patient_cnt : 163,837
+  patient_diff : 38
+}
+바레인 : {
+  active_cnt : 11,214
+  continent : continent_mideast
+  death_cnt : 562
+  death_diff : 5
+  death_percent : 0.4
+  localInfection : True
+  nation_cd : BHR
+  patient_cnt : 157,729
+  patient_diff : 1,267
+}
+우루과이 : {
+  active_cnt : 32,515
+  continent : continent_america
+  death_cnt : 1,533
+  death_diff : 71
+  death_percent : 1.0
+  localInfection : False
+  nation_cd : URY
+  patient_cnt : 147,173
+  patient_diff : 2,531
+}
+케냐 : {
+  active_cnt : 44,578
+  continent : continent_africa
+  death_cnt : 2,368
+  death_diff : 20
+  death_percent : 1.6
+  localInfection : False
+  nation_cd : KEN
+  patient_cnt : 146,156
+  patient_diff : 486
+}
+미얀마 : {
+  active_cnt : 7,521
+  continent : continent_asia
+  death_cnt : 3,206
+  death_diff : 0
+  death_percent : 2.2
+  localInfection : False
+  nation_cd : MMR
+  patient_cnt : 142,596
+  patient_diff : 20
+}
+북마케도니아 : {
+  active_cnt : 19,978
+  continent : continent_europe
+  death_cnt : 4,262
+  death_diff : 34
+  death_percent : 3.0
+  localInfection : True
+  nation_cd : MKD
+  patient_cnt : 142,034
+  patient_diff : 190
+}
+알바니아 : {
+  active_cnt : 27,928
+  continent : continent_europe
+  death_cnt : 2,321
+  death_diff : 4
+  death_percent : 1.8
+  localInfection : True
+  nation_cd : ALB
+  patient_cnt : 128,518
+  patient_diff : 125
+}
+알제리 : {
+  active_cnt : 32,807
+  continent : continent_mideast
+  death_cnt : 3,134
+  death_diff : 4
+  death_percent : 2.6
+  localInfection : True
+  nation_cd : DZA
+  patient_cnt : 118,645
+  patient_diff : 129
+}
+푸에르토리코 : {
+  active_cnt : N/A
+  continent : continent_america
+  death_cnt : 2,162
+  death_diff : 7
+  death_percent : 1.9
+  localInfection : False
+  nation_cd : PRI
+  patient_cnt : 116,378
+  patient_diff : 1,079
+}
+에스토니아 : {
+  active_cnt : 18,160
+  continent : continent_europe
+  death_cnt : 1,037
+  death_diff : 9
+  death_percent : 0.9
+  localInfection : True
+  nation_cd : EST
+  patient_cnt : 114,443
+  patient_diff : 269
+}
+한국 : {
+  active_cnt : 7,581
+  continent : continent_asia
+  death_cnt : 1,775
+  death_diff : 5
+  death_percent : 1.6
+  localInfection : True
+  nation_cd : KOR
+  patient_cnt : 110,688
+  patient_diff : 542
+}
+라트비아 : {
+  active_cnt : 6,504
+  continent : continent_europe
+  death_cnt : 1,990
+  death_diff : 4
+  death_percent : 1.8
+  localInfection : False
+  nation_cd : LVA
+  patient_cnt : 107,818
+  patient_diff : 210
+}
+노르웨이 : {
+  active_cnt : 85,584
+  continent : continent_europe
+  death_cnt : 687
+  death_diff : 3
+  death_percent : 0.7
+  localInfection : True
+  nation_cd : NOR
+  patient_cnt : 104,269
+  patient_diff : 648
+}
+코소보 : {
+  active_cnt : 13,574
+  continent : continent_europe
+  death_cnt : 1,968
+  death_diff : 0
+  death_percent : 2.1
+  localInfection : False
+  nation_cd : KSB
+  patient_cnt : 95,886
+  patient_diff : 0
+}
+스리랑카 : {
+  active_cnt : 3,021
+  continent : continent_asia
+  death_cnt : 598
+  death_diff : 0
+  death_percent : 0.6
+  localInfection : True
+  nation_cd : LKA
+  patient_cnt : 95,394
+  patient_diff : 263
+}
+몬테네그로 : {
+  active_cnt : 4,204
+  continent : continent_europe
+  death_cnt : 1,381
+  death_diff : 8
+  death_percent : 1.5
+  localInfection : False
+  nation_cd : MGO
+  patient_cnt : 94,419
+  patient_diff : 150
+}
+가나 : {
+  active_cnt : 1,414
+  continent : continent_africa
+  death_cnt : 754
+  death_diff : 0
+  death_percent : 0.8
+  localInfection : False
+  nation_cd : GHA
+  patient_cnt : 91,260
+  patient_diff : 0
+}
+중국 : {
+  active_cnt : 293
+  continent : continent_asia
+  death_cnt : 4,636
+  death_diff : 0
+  death_percent : 5.1
+  localInfection : True
+  nation_cd : CHN
+  patient_cnt : 90,435
+  patient_diff : 9
+}
+키르기스스탄 : {
+  active_cnt : 2,816
+  continent : continent_asia
+  death_cnt : 1,528
+  death_diff : 6
+  death_percent : 1.7
+  localInfection : False
+  nation_cd : KGZ
+  patient_cnt : 90,372
+  patient_diff : 145
+}
+잠비아 : {
+  active_cnt : 760
+  continent : continent_africa
+  death_cnt : 1,227
+  death_diff : 1
+  death_percent : 1.4
+  localInfection : False
+  nation_cd : ZMB
+  patient_cnt : 90,064
+  patient_diff : 35
+}
+쿠바 : {
+  active_cnt : 5,018
+  continent : continent_america
+  death_cnt : 467
+  death_diff : 8
+  death_percent : 0.5
+  localInfection : False
+  nation_cd : CUB
+  patient_cnt : 87,385
+  patient_diff : 854
+}
+우즈베키스탄 : {
+  active_cnt : 1,537
+  continent : continent_asia
+  death_cnt : 634
+  death_diff : 0
+  death_percent : 0.7
+  localInfection : False
+  nation_cd : UZB
+  patient_cnt : 85,114
+  patient_diff : 192
+}
+핀란드 : {
+  active_cnt : 35,404
+  continent : continent_europe
+  death_cnt : 874
+  death_diff : 6
+  death_percent : 1.1
+  localInfection : True
+  nation_cd : FIN
+  patient_cnt : 82,278
+  patient_diff : 225
+}
+모잠비크 : {
+  active_cnt : 8,600
+  continent : continent_africa
+  death_cnt : 791
+  death_diff : 0
+  death_percent : 1.1
+  localInfection : False
+  nation_cd : MOZ
+  patient_cnt : 68,792
+  patient_diff : 34
+}
+엘살바도르 : {
+  active_cnt : 1,477
+  continent : continent_america
+  death_cnt : 2,054
+  death_diff : 3
+  death_percent : 3.1
+  localInfection : False
+  nation_cd : SLV
+  patient_cnt : 66,489
+  patient_diff : 0
+}
+룩셈부르크 : {
+  active_cnt : 3,120
+  continent : continent_europe
+  death_cnt : 772
+  death_diff : 9
+  death_percent : 1.2
+  localInfection : True
+  nation_cd : LUX
+  patient_cnt : 63,880
+  patient_diff : 413
+}
+카메룬 : {
+  active_cnt : 25,551
+  continent : continent_africa
+  death_cnt : 919
+  death_diff : 0
+  death_percent : 1.5
+  localInfection : True
+  nation_cd : CMR
+  patient_cnt : 61,731
+  patient_diff : 0
+}
+싱가포르 : {
+  active_cnt : 291
+  continent : continent_asia
+  death_cnt : 30
+  death_diff : 0
+  death_percent : 0.0
+  localInfection : True
+  nation_cd : SGP
+  patient_cnt : 60,678
+  patient_diff : 25
+}
+아프가니스탄 : {
+  active_cnt : 2,708
+  continent : continent_asia
+  death_cnt : 2,529
+  death_diff : 8
+  death_percent : 4.4
+  localInfection : False
+  nation_cd : AFG
+  patient_cnt : 57,242
+  patient_diff : 82
+}
+사이프러스 : {
+  active_cnt : 12,699
+  continent : continent_europe
+  death_cnt : 273
+  death_diff : 1
+  death_percent : 0.5
+  localInfection : False
+  nation_cd : CYP
+  patient_cnt : 52,033
+  patient_diff : 528
+}
+나미비아 : {
+  active_cnt : 1,491
+  continent : continent_africa
+  death_cnt : 575
+  death_diff : 5
+  death_percent : 1.3
+  localInfection : False
+  nation_cd : NAM
+  patient_cnt : 45,787
+  patient_diff : 260
+}
+코트디부아르 : {
+  active_cnt : 276
+  continent : continent_africa
+  death_cnt : 268
+  death_diff : 5
+  death_percent : 0.6
+  localInfection : False
+  nation_cd : CIV
+  patient_cnt : 45,227
+  patient_diff : 21
+}
+보츠와나 : {
+  active_cnt : 3,858
+  continent : continent_africa
+  death_cnt : 663
+  death_diff : 27
+  death_percent : 1.5
+  localInfection : False
+  nation_cd : BWA
+  patient_cnt : 43,444
+  patient_diff : 770
+}
+자메이카 : {
+  active_cnt : 23,070
+  continent : continent_america
+  death_cnt : 676
+  death_diff : 4
+  death_percent : 1.6
+  localInfection : True
+  nation_cd : JAM
+  patient_cnt : 42,763
+  patient_diff : 263
+}
+우간다 : {
+  active_cnt : 58
+  continent : continent_africa
+  death_cnt : 337
+  death_diff : 0
+  death_percent : 0.8
+  localInfection : False
+  nation_cd : UGA
+  patient_cnt : 41,174
+  patient_diff : 34
+}
+세네갈 : {
+  active_cnt : 171
+  continent : continent_africa
+  death_cnt : 1,079
+  death_diff : 1
+  death_percent : 2.7
+  localInfection : True
+  nation_cd : SEN
+  patient_cnt : 39,465
+  patient_diff : 34
+}
+짐바브웨 : {
+  active_cnt : 864
+  continent : continent_africa
+  death_cnt : 1,542
+  death_diff : 4
+  death_percent : 4.1
+  localInfection : False
+  nation_cd : ZWE
+  patient_cnt : 37,307
+  patient_diff : 19
+}
+말라위 : {
+  active_cnt : 1,155
+  continent : continent_africa
+  death_cnt : 1,132
+  death_diff : 4
+  death_percent : 3.3
+  localInfection : False
+  nation_cd : MAW
+  patient_cnt : 33,859
+  patient_diff : 32
+}
+태국 : {
+  active_cnt : 6,640
+  continent : continent_asia
+  death_cnt : 97
+  death_diff : 0
+  death_percent : 0.3
+  localInfection : True
+  nation_cd : THA
+  patient_cnt : 33,610
+  patient_diff : 985
+}
+수단 : {
+  active_cnt : 5,556
+  continent : continent_africa
+  death_cnt : 2,063
+  death_diff : 0
+  death_percent : 6.5
+  localInfection : False
+  nation_cd : SDN
+  patient_cnt : 31,833
+  patient_diff : 0
+}
+몰타 : {
+  active_cnt : 553
+  continent : continent_europe
+  death_cnt : 402
+  death_diff : 0
+  death_percent : 1.4
+  localInfection : False
+  nation_cd : MLT
+  patient_cnt : 29,661
+  patient_diff : 47
+}
+호주 : {
+  active_cnt : 5,432
+  continent : continent_oceania
+  death_cnt : 910
+  death_diff : 1
+  death_percent : 3.1
+  localInfection : True
+  nation_cd : AUS
+  patient_cnt : 29,429
+  patient_diff : 10
+}
+콩고민주공화국 : {
+  active_cnt : 1,956
+  continent : continent_africa
+  death_cnt : 745
+  death_diff : 0
+  death_percent : 2.6
+  localInfection : False
+  nation_cd : COD
+  patient_cnt : 28,542
+  patient_diff : 0
+}
+마다가스카르 : {
+  active_cnt : 3,930
+  continent : continent_africa
+  death_cnt : 506
+  death_diff : 6
+  death_percent : 1.8
+  localInfection : False
+  nation_cd : MDG
+  patient_cnt : 28,541
+  patient_diff : 478
+}
+몰디브 : {
+  active_cnt : 2,838
+  continent : continent_asia
+  death_cnt : 67
+  death_diff : 0
+  death_percent : 0.3
+  localInfection : True
+  nation_cd : MDV
+  patient_cnt : 25,701
+  patient_diff : 84
+}
+앙골라 : {
+  active_cnt : 902
+  continent : continent_africa
+  death_cnt : 554
+  death_diff : 1
+  death_percent : 2.4
+  localInfection : False
+  nation_cd : AGO
+  patient_cnt : 23,549
+  patient_diff : 92
+}
+르완다 : {
+  active_cnt : 1,947
+  continent : continent_africa
+  death_cnt : 316
+  death_diff : 1
+  death_percent : 1.3
+  localInfection : True
+  nation_cd : RWA
+  patient_cnt : 23,535
+  patient_diff : 109
+}
+기니 : {
+  active_cnt : 2,283
+  continent : continent_africa
+  death_cnt : 136
+  death_diff : 2
+  death_percent : 0.6
+  localInfection : False
+  nation_cd : GIN
+  patient_cnt : 21,032
+  patient_diff : 83
+}
+가봉 : {
+  active_cnt : 3,080
+  continent : continent_africa
+  death_cnt : 129
+  death_diff : 2
+  death_percent : 0.6
+  localInfection : False
+  nation_cd : GAB
+  patient_cnt : 20,971
+  patient_diff : 335
+}
+시리아 : {
+  active_cnt : 4,824
+  continent : continent_mideast
+  death_cnt : 1,385
+  death_diff : 7
+  death_percent : 6.8
+  localInfection : False
+  nation_cd : SYR
+  patient_cnt : 20,331
+  patient_diff : 105
+}
+마요트 : {
+  active_cnt : 16,512
+  continent : continent_etc
+  death_cnt : 167
+  death_diff : 0
+  death_percent : 0.9
+  localInfection : False
+  nation_cd : MYT
+  patient_cnt : 19,643
+  patient_diff : 0
+}
+카보베르데 : {
+  active_cnt : 1,527
+  continent : continent_africa
+  death_cnt : 184
+  death_diff : 2
+  death_percent : 1.0
+  localInfection : False
+  nation_cd : CPV
+  patient_cnt : 19,110
+  patient_diff : 105
+}
+프랑스령 폴리네시아 : {
+  active_cnt : 13,683
+  continent : continent_etc
+  death_cnt : 141
+  death_diff : 0
+  death_percent : 0.8
+  localInfection : False
+  nation_cd : PYF
+  patient_cnt : 18,666
+  patient_diff : 14
+}
+에스와티니 : {
+  active_cnt : 42
+  continent : continent_africa
+  death_cnt : 669
+  death_diff : 0
+  death_percent : 3.6
+  localInfection : False
+  nation_cd : SWZ
+  patient_cnt : 18,393
+  patient_diff : 1,017
+}
+모리타니 : {
+  active_cnt : 212
+  continent : continent_africa
+  death_cnt : 450
+  death_diff : 0
+  death_percent : 2.5
+  localInfection : False
+  nation_cd : MRT
+  patient_cnt : 18,035
+  patient_diff : 13
+}
+프랑스령 기아나 : {
+  active_cnt : 7,460
+  continent : continent_etc
+  death_cnt : 94
+  death_diff : 0
+  death_percent : 0.5
+  localInfection : False
+  nation_cd : GUF
+  patient_cnt : 17,549
+  patient_diff : 0
+}
+프랑스령 레위니옹 : {
+  active_cnt : 1,374
+  continent : continent_etc
+  death_cnt : 123
+  death_diff : 0
+  death_percent : 0.7
+  localInfection : False
+  nation_cd : REU
+  patient_cnt : 17,508
+  patient_diff : 0
+}
+몽골 : {
+  active_cnt : 6,689
+  continent : continent_asia
+  death_cnt : 27
+  death_diff : 5
+  death_percent : 0.2
+  localInfection : False
+  nation_cd : MNG
+  patient_cnt : 16,603
+  patient_diff : 1,589
+}
+타지키스탄 : {
+  active_cnt : 0
+  continent : continent_asia
+  death_cnt : 90
+  death_diff : 0
+  death_percent : 0.7
+  localInfection : False
+  nation_cd : TJK
+  patient_cnt : 13,308
+  patient_diff : 0
+}
+부르키나파소 : {
+  active_cnt : 209
+  continent : continent_africa
+  death_cnt : 153
+  death_diff : 1
+  death_percent : 1.2
+  localInfection : False
+  nation_cd : BFA
+  patient_cnt : 12,989
+  patient_diff : 33
+}
+아이티 : {
+  active_cnt : 1,075
+  continent : continent_america
+  death_cnt : 252
+  death_diff : 0
+  death_percent : 2.0
+  localInfection : False
+  nation_cd : HTI
+  patient_cnt : 12,840
+  patient_diff : 0
+}
+안도라 : {
+  active_cnt : 570
+  continent : continent_europe
+  death_cnt : 121
+  death_diff : 1
+  death_percent : 1.0
+  localInfection : False
+  nation_cd : AND
+  patient_cnt : 12,581
+  patient_diff : 36
+}
+소말리아 : {
+  active_cnt : 6,678
+  continent : continent_mideast
+  death_cnt : 618
+  death_diff : 0
+  death_percent : 4.9
+  localInfection : False
+  nation_cd : SOM
+  patient_cnt : 12,566
+  patient_diff : 160
+}
+벨리즈 : {
+  active_cnt : 51
+  continent : continent_america
+  death_cnt : 318
+  death_diff : 0
+  death_percent : 2.5
+  localInfection : False
+  nation_cd : BLZ
+  patient_cnt : 12,503
+  patient_diff : 18
+}
+과들루프 : {
+  active_cnt : 9,873
+  continent : continent_etc
+  death_cnt : 189
+  death_diff : 0
+  death_percent : 1.5
+  localInfection : False
+  nation_cd : GLP
+  patient_cnt : 12,304
+  patient_diff : 0
+}
+토고 : {
+  active_cnt : 2,615
+  continent : continent_africa
+  death_cnt : 116
+  death_diff : 0
+  death_percent : 1.0
+  localInfection : False
+  nation_cd : TGO
+  patient_cnt : 12,034
+  patient_diff : 28
+}
+말리 : {
+  active_cnt : 4,422
+  continent : continent_africa
+  death_cnt : 414
+  death_diff : 6
+  death_percent : 3.4
+  localInfection : False
+  nation_cd : MLI
+  patient_cnt : 12,002
+  patient_diff : 158
+}
+홍콩 : {
+  active_cnt : 173
+  continent : continent_asia
+  death_cnt : 207
+  death_diff : 0
+  death_percent : 1.8
+  localInfection : False
+  nation_cd : HKG
+  patient_cnt : 11,594
+  patient_diff : 13
+}
+퀴라소 : {
+  active_cnt : 4,472
+  continent : continent_etc
+  death_cnt : 68
+  death_diff : 2
+  death_percent : 0.6
+  localInfection : False
+  nation_cd : CUW
+  patient_cnt : 11,385
+  patient_diff : 30
+}
+가이아나 : {
+  active_cnt : 1,181
+  continent : continent_america
+  death_cnt : 257
+  death_diff : 2
+  death_percent : 2.3
+  localInfection : True
+  nation_cd : GUY
+  patient_cnt : 11,189
+  patient_diff : 40
+}
+레소토 : {
+  active_cnt : 5,366
+  continent : continent_africa
+  death_cnt : 315
+  death_diff : 0
+  death_percent : 2.9
+  localInfection : False
+  nation_cd : LSO
+  patient_cnt : 10,709
+  patient_diff : 2
+}
+남수단 : {
+  active_cnt : 119
+  continent : continent_africa
+  death_cnt : 114
+  death_diff : 0
+  death_percent : 1.1
+  localInfection : False
+  nation_cd : SSD
+  patient_cnt : 10,381
+  patient_diff : 9
+}
+콩고 : {
+  active_cnt : 1,739
+  continent : continent_africa
+  death_cnt : 137
+  death_diff : 0
+  death_percent : 1.4
+  localInfection : False
+  nation_cd : COG
+  patient_cnt : 10,084
+  patient_diff : 0
+}
+아루바 : {
+  active_cnt : 516
+  continent : continent_etc
+  death_cnt : 92
+  death_diff : 0
+  death_percent : 0.9
+  localInfection : False
+  nation_cd : ARU
+  patient_cnt : 10,076
+  patient_diff : 26
+}
+지부티 : {
+  active_cnt : 1,691
+  continent : continent_africa
+  death_cnt : 100
+  death_diff : 4
+  death_percent : 1.0
+  localInfection : False
+  nation_cd : DJI
+  patient_cnt : 9,975
+  patient_diff : 99
+}
+바하마 : {
+  active_cnt : 405
+  continent : continent_america
+  death_cnt : 190
+  death_diff : 1
+  death_percent : 2.0
+  localInfection : False
+  nation_cd : BHS
+  patient_cnt : 9,460
+  patient_diff : 96
+}
+수리남 : {
+  active_cnt : 434
+  continent : continent_america
+  death_cnt : 182
+  death_diff : 0
+  death_percent : 2.0
+  localInfection : False
+  nation_cd : SUR
+  patient_cnt : 9,316
+  patient_diff : 14
+}
+마르티니크 : {
+  active_cnt : 8,730
+  continent : continent_etc
+  death_cnt : 59
+  death_diff : 0
+  death_percent : 0.7
+  localInfection : False
+  nation_cd : MTQ
+  patient_cnt : 8,887
+  patient_diff : 0
+}
+파푸아뉴기니 : {
+  active_cnt : 7,687
+  continent : continent_oceania
+  death_cnt : 69
+  death_diff : 1
+  death_percent : 0.8
+  localInfection : False
+  nation_cd : PNG
+  patient_cnt : 8,602
+  patient_diff : 160
+}
+트리니다드 토바고 : {
+  active_cnt : 520
+  continent : continent_america
+  death_cnt : 146
+  death_diff : 0
+  death_percent : 1.7
+  localInfection : False
+  nation_cd : TTO
+  patient_cnt : 8,441
+  patient_diff : 37
+}
+괌 : {
+  active_cnt : N/A
+  continent : continent_etc
+  death_cnt : 136
+  death_diff : 0
+  death_percent : 1.7
+  localInfection : False
+  nation_cd : GUM
+  patient_cnt : 7,842
+  patient_diff : 9
+}
+베냉 : {
+  active_cnt : 970
+  continent : continent_africa
+  death_cnt : 93
+  death_diff : 0
+  death_percent : 1.2
+  localInfection : False
+  nation_cd : BEN
+  patient_cnt : 7,515
+  patient_diff : 0
+}
+적도기니 : {
+  active_cnt : 314
+  continent : continent_africa
+  death_cnt : 106
+  death_diff : 0
+  death_percent : 1.5
+  localInfection : False
+  nation_cd : GNQ
+  patient_cnt : 7,219
+  patient_diff : 0
+}
+니카라과 : {
+  active_cnt : 2,323
+  continent : continent_america
+  death_cnt : 179
+  death_diff : 0
+  death_percent : 2.7
+  localInfection : False
+  nation_cd : NIC
+  patient_cnt : 6,727
+  patient_diff : 0
+}
+아이슬란드 : {
+  active_cnt : 98
+  continent : continent_europe
+  death_cnt : 29
+  death_diff : 0
+  death_percent : 0.5
+  localInfection : True
+  nation_cd : ISL
+  patient_cnt : 6,267
+  patient_diff : 9
+}
+감비아 : {
+  active_cnt : 289
+  continent : continent_africa
+  death_cnt : 168
+  death_diff : 0
+  death_percent : 3.0
+  localInfection : False
+  nation_cd : GMB
+  patient_cnt : 5,602
+  patient_diff : 0
+}
+중앙아프리카공화국 : {
+  active_cnt : 361
+  continent : continent_africa
+  death_cnt : 74
+  death_diff : 0
+  death_percent : 1.3
+  localInfection : False
+  nation_cd : CAF
+  patient_cnt : 5,491
+  patient_diff : 0
+}
+예멘 : {
+  active_cnt : 2,319
+  continent : continent_mideast
+  death_cnt : 1,068
+  death_diff : 19
+  death_percent : 19.6
+  localInfection : False
+  nation_cd : YEM
+  patient_cnt : 5,446
+  patient_diff : 89
+}
+니제르 : {
+  active_cnt : 132
+  continent : continent_africa
+  death_cnt : 189
+  death_diff : 0
+  death_percent : 3.7
+  localInfection : False
+  nation_cd : NER
+  patient_cnt : 5,081
+  patient_diff : 7
+}
+산마리노 : {
+  active_cnt : 366
+  continent : continent_europe
+  death_cnt : 86
+  death_diff : 1
+  death_percent : 1.7
+  localInfection : True
+  nation_cd : SMR
+  patient_cnt : 4,962
+  patient_diff : 6
+}
+차드 : {
+  active_cnt : 176
+  continent : continent_africa
+  death_cnt : 167
+  death_diff : 0
+  death_percent : 3.6
+  localInfection : False
+  nation_cd : TCD
+  patient_cnt : 4,641
+  patient_diff : 5
+}
+캄보디아 : {
+  active_cnt : 2,273
+  continent : continent_asia
+  death_cnt : 30
+  death_diff : 0
+  death_percent : 0.7
+  localInfection : True
+  nation_cd : KHM
+  patient_cnt : 4,515
+  patient_diff : 0
+}
+세이셀 : {
+  active_cnt : 258
+  continent : continent_africa
+  death_cnt : 25
+  death_diff : 1
+  death_percent : 0.6
+  localInfection : False
+  nation_cd : SYC
+  patient_cnt : 4,444
+  patient_diff : 14
+}
+세인트루스아 : {
+  active_cnt : 112
+  continent : continent_america
+  death_cnt : 64
+  death_diff : 0
+  death_percent : 1.5
+  localInfection : False
+  nation_cd : LCA
+  patient_cnt : 4,355
+  patient_diff : 7
+}
+지브롤터 : {
+  active_cnt : 2
+  continent : continent_etc
+  death_cnt : 94
+  death_diff : 0
+  death_percent : 2.2
+  localInfection : False
+  nation_cd : GIB
+  patient_cnt : 4,277
+  patient_diff : 0
+}
+시에라리온 : {
+  active_cnt : 1,098
+  continent : continent_africa
+  death_cnt : 79
+  death_diff : 0
+  death_percent : 2.0
+  localInfection : False
+  nation_cd : SLE
+  patient_cnt : 4,008
+  patient_diff : 3
+}
+코모로 : {
+  active_cnt : 66
+  continent : continent_africa
+  death_cnt : 146
+  death_diff : 0
+  death_percent : 3.9
+  localInfection : False
+  nation_cd : COM
+  patient_cnt : 3,789
+  patient_diff : 0
+}
+바베이도스 : {
+  active_cnt : 77
+  continent : continent_america
+  death_cnt : 44
+  death_diff : 0
+  death_percent : 1.2
+  localInfection : False
+  nation_cd : BAR
+  patient_cnt : 3,734
+  patient_diff : 4
+}
+기니비사우 : {
+  active_cnt : 545
+  continent : continent_africa
+  death_cnt : 66
+  death_diff : 0
+  death_percent : 1.8
+  localInfection : False
+  nation_cd : GNB
+  patient_cnt : 3,680
+  patient_diff : 0
+}
+에리트레아 : {
+  active_cnt : 260
+  continent : continent_africa
+  death_cnt : 10
+  death_diff : 0
+  death_percent : 0.3
+  localInfection : False
+  nation_cd : ERI
+  patient_cnt : 3,466
+  patient_diff : 19
+}
+브룬디 : {
+  active_cnt : 2,375
+  continent : continent_africa
+  death_cnt : 6
+  death_diff : 0
+  death_percent : 0.2
+  localInfection : False
+  nation_cd : BDI
+  patient_cnt : 3,154
+  patient_diff : 0
+}
+미국령버진아일랜드 : {
+  active_cnt : N/A
+  continent : continent_etc
+  death_cnt : 26
+  death_diff : 0
+  death_percent : 0.9
+  localInfection : False
+  nation_cd : ISV
+  patient_cnt : 2,998
+  patient_diff : 27
+}
+리히텐슈타인 : {
+  active_cnt : 73
+  continent : continent_europe
+  death_cnt : 56
+  death_diff : 0
+  death_percent : 2.0
+  localInfection : False
+  nation_cd : LIE
+  patient_cnt : 2,754
+  patient_diff : 1
+}
+베트남 : {
+  active_cnt : 225
+  continent : continent_asia
+  death_cnt : 35
+  death_diff : 0
+  death_percent : 1.3
+  localInfection : True
+  nation_cd : VNM
+  patient_cnt : 2,705
+  patient_diff : 12
+}
+뉴질랜드 : {
+  active_cnt : 102
+  continent : continent_oceania
+  death_cnt : 26
+  death_diff : 0
+  death_percent : 1.0
+  localInfection : True
+  nation_cd : NZL
+  patient_cnt : 2,587
+  patient_diff : 4
+}
+모나코 : {
+  active_cnt : 99
+  continent : continent_europe
+  death_cnt : 31
+  death_diff : 0
+  death_percent : 1.3
+  localInfection : False
+  nation_cd : MCO
+  patient_cnt : 2,377
+  patient_diff : 2
+}
+터크스 케이커스 제도 : {
+  active_cnt : 57
+  continent : continent_etc
+  death_cnt : 17
+  death_diff : 0
+  death_percent : 0.7
+  localInfection : False
+  nation_cd : TCA
+  patient_cnt : 2,357
+  patient_diff : 0
+}
+상투메프린시페 : {
+  active_cnt : 44
+  continent : continent_africa
+  death_cnt : 35
+  death_diff : 0
+  death_percent : 1.5
+  localInfection : False
+  nation_cd : STP
+  patient_cnt : 2,267
+  patient_diff : 1
+}
+신트마르턴 : {
+  active_cnt : 40
+  continent : continent_etc
+  death_cnt : 27
+  death_diff : 0
+  death_percent : 1.2
+  localInfection : False
+  nation_cd : SXM
+  patient_cnt : 2,185
+  patient_diff : 0
+}
+라이베리아 : {
+  active_cnt : 58
+  continent : continent_africa
+  death_cnt : 85
+  death_diff : 0
+  death_percent : 4.2
+  localInfection : False
+  nation_cd : LBR
+  patient_cnt : 2,042
+  patient_diff : 0
+}
+버뮤다 : {
+  active_cnt : 877
+  continent : continent_etc
+  death_cnt : 16
+  death_diff : 2
+  death_percent : 0.8
+  localInfection : False
+  nation_cd : BMU
+  patient_cnt : 1,891
+  patient_diff : 118
+}
+세인트빈센트그레나딘  : {
+  active_cnt : 131
+  continent : continent_america
+  death_cnt : 10
+  death_diff : 0
+  death_percent : 0.6
+  localInfection : False
+  nation_cd : VIN
+  patient_cnt : 1,806
+  patient_diff : 14
+}
+세인트마틴 : {
+  active_cnt : 282
+  continent : continent_etc
+  death_cnt : 12
+  death_diff : 0
+  death_percent : 0.7
+  localInfection : False
+  nation_cd : MAF
+  patient_cnt : 1,693
+  patient_diff : 0
+}
+맨섬 : {
+  active_cnt : 100
+  continent : continent_etc
+  death_cnt : 29
+  death_diff : 0
+  death_percent : 1.8
+  localInfection : False
+  nation_cd : IMN
+  patient_cnt : 1,574
+  patient_diff : 0
+}
+앤티가 바부다 : {
+  active_cnt : 230
+  continent : continent_america
+  death_cnt : 30
+  death_diff : 0
+  death_percent : 2.5
+  localInfection : False
+  nation_cd : ATG
+  patient_cnt : 1,198
+  patient_diff : 0
+}
+모리셔스 : {
+  active_cnt : 381
+  continent : continent_africa
+  death_cnt : 15
+  death_diff : 3
+  death_percent : 1.3
+  localInfection : False
+  nation_cd : MUS
+  patient_cnt : 1,193
+  patient_diff : 1
+}
+대만 : {
+  active_cnt : 21
+  continent : continent_asia
+  death_cnt : 11
+  death_diff : 0
+  death_percent : 1.0
+  localInfection : False
+  nation_cd : TWN
+  patient_cnt : 1,058
+  patient_diff : 1
+}
+동티모르 : {
+  active_cnt : 495
+  continent : continent_asia
+  death_cnt : 1
+  death_diff : 0
+  death_percent : 0.1
+  localInfection : False
+  nation_cd : TLS
+  patient_cnt : 1,046
+  patient_diff : 99
+}
+부탄 : {
+  active_cnt : 45
+  continent : continent_asia
+  death_cnt : 1
+  death_diff : 0
+  death_percent : 0.1
+  localInfection : False
+  nation_cd : BTN
+  patient_cnt : 921
+  patient_diff : 3
+}
+생바르텔레미 : {
+  active_cnt : 444
+  continent : continent_etc
+  death_cnt : 1
+  death_diff : 0
+  death_percent : 0.1
+  localInfection : False
+  nation_cd : BLM
+  patient_cnt : 907
+  patient_diff : 0
+}
+일본크루즈 : {
+  active_cnt : 0
+  continent : continent_etc
+  death_cnt : 13
+  death_diff : 0
+  death_percent : 1.8
+  localInfection : False
+  nation_cd : CRZ
+  patient_cnt : 712
+  patient_diff : 0
+}
+페로제도 : {
+  active_cnt : 0
+  continent : continent_etc
+  death_cnt : 1
+  death_diff : 0
+  death_percent : 0.2
+  localInfection : False
+  nation_cd : FRO
+  patient_cnt : 661
+  patient_diff : 0
+}
+케이맨 제도 : {
+  active_cnt : 27
+  continent : continent_etc
+  death_cnt : 2
+  death_diff : 0
+  death_percent : 0.4
+  localInfection : False
+  nation_cd : CYM
+  patient_cnt : 516
+  patient_diff : 0
+}
+탄자니아 : {
+  active_cnt : 305
+  continent : continent_africa
+  death_cnt : 21
+  death_diff : 0
+  death_percent : 4.1
+  localInfection : False
+  nation_cd : TZA
+  patient_cnt : 509
+  patient_diff : 0
+}
+브루나이 : {
+  active_cnt : 10
+  continent : continent_asia
+  death_cnt : 3
+  death_diff : 0
+  death_percent : 1.4
+  localInfection : True
+  nation_cd : BRN
+  patient_cnt : 219
+  patient_diff : 0
+}
+카리브 네덜란드 : {
+  active_cnt : 13
+  continent : continent_etc
+  death_cnt : 3
+  death_diff : 0
+  death_percent : 1.5
+  localInfection : False
+  nation_cd : AHO
+  patient_cnt : 196
+  patient_diff : 0
+}
+영국령 버진아일랜드 : {
+  active_cnt : 18
+  continent : continent_etc
+  death_cnt : 1
+  death_diff : 0
+  death_percent : 0.6
+  localInfection : False
+  nation_cd : VGB
+  patient_cnt : 178
+  patient_diff : 0
+}
+도미니카연방 : {
+  active_cnt : 6
+  continent : continent_america
+  death_cnt : 0
+  death_diff : 0
+  death_percent : 0.0
+  localInfection : False
+  nation_cd : DMA
+  patient_cnt : 165
+  patient_diff : 0
+}
+북마리아나제도 : {
+  active_cnt : N/A
+  continent : continent_etc
+  death_cnt : 2
+  death_diff : 0
+  death_percent : 1.3
+  localInfection : False
+  nation_cd : MNP
+  patient_cnt : 160
+  patient_diff : 0
+}
+그레나다 : {
+  active_cnt : 2
+  continent : continent_america
+  death_cnt : 1
+  death_diff : 0
+  death_percent : 0.6
+  localInfection : False
+  nation_cd : GRD
+  patient_cnt : 155
+  patient_diff : 0
+}
+뉴칼레도니아 : {
+  active_cnt : 63
+  continent : continent_etc
+  death_cnt : 0
+  death_diff : 0
+  death_percent : 0.0
+  localInfection : False
+  nation_cd : NCD
+  patient_cnt : 121
+  patient_diff : 0
+}
+피지 : {
+  active_cnt : 2
+  continent : continent_oceania
+  death_cnt : 2
+  death_diff : 0
+  death_percent : 2.9
+  localInfection : False
+  nation_cd : FJI
+  patient_cnt : 68
+  patient_diff : 0
+}
+포클랜드 제도 : {
+  active_cnt : 6
+  continent : continent_etc
+  death_cnt : 0
+  death_diff : 0
+  death_percent : 0.0
+  localInfection : False
+  nation_cd : FLK
+  patient_cnt : 60
+  patient_diff : 0
+}
+라오스 : {
+  active_cnt : 3
+  continent : continent_asia
+  death_cnt : 0
+  death_diff : 0
+  death_percent : 0.0
+  localInfection : False
+  nation_cd : LAO
+  patient_cnt : 52
+  patient_diff : 1
+}
+마카오 : {
+  active_cnt : 1
+  continent : continent_asia
+  death_cnt : 0
+  death_diff : 0
+  death_percent : 0.0
+  localInfection : False
+  nation_cd : MAC
+  patient_cnt : 49
+  patient_diff : 0
+}
+세인트키츠네비스 : {
+  active_cnt : 0
+  continent : continent_america
+  death_cnt : 0
+  death_diff : 0
+  death_percent : 0.0
+  localInfection : False
+  nation_cd : KNA
+  patient_cnt : 44
+  patient_diff : 0
+}
+그린란드 : {
+  active_cnt : 0
+  continent : continent_etc
+  death_cnt : 0
+  death_diff : 0
+  death_percent : 0.0
+  localInfection : False
+  nation_cd : GRL
+  patient_cnt : 31
+  patient_diff : 0
+}
+바티칸시국 : {
+  active_cnt : 12
+  continent : continent_etc
+  death_cnt : 0
+  death_diff : 0
+  death_percent : 0.0
+  localInfection : False
+  nation_cd : VAT
+  patient_cnt : 27
+  patient_diff : 0
+}
+앵귈라 : {
+  active_cnt : 3
+  continent : continent_etc
+  death_cnt : 0
+  death_diff : 0
+  death_percent : 0.0
+  localInfection : False
+  nation_cd : AIA
+  patient_cnt : 25
+  patient_diff : 0
+}
+생피에르 미클롱 : {
+  active_cnt : 0
+  continent : continent_etc
+  death_cnt : 0
+  death_diff : 0
+  death_percent : 0.0
+  localInfection : False
+  nation_cd : SPM
+  patient_cnt : 24
+  patient_diff : 0
+}
+몬트세라트 : {
+  active_cnt : 0
+  continent : continent_etc
+  death_cnt : 1
+  death_diff : 0
+  death_percent : 5.0
+  localInfection : False
+  nation_cd : MSR
+  patient_cnt : 20
+  patient_diff : 0
+}
+솔로몬제도 : {
+  active_cnt : 1
+  continent : continent_oceania
+  death_cnt : 0
+  death_diff : 0
+  death_percent : 0.0
+  localInfection : False
+  nation_cd : SLB
+  patient_cnt : 19
+  patient_diff : 0
+}
+마셜제도 : {
+  active_cnt : 0
+  continent : continent_oceania
+  death_cnt : 0
+  death_diff : 0
+  death_percent : 0.0
+  localInfection : False
+  nation_cd : MHL
+  patient_cnt : 4
+  patient_diff : 0
+}
+바누아투 : {
+  active_cnt : 2
+  continent : continent_oceania
+  death_cnt : 0
+  death_diff : 0
+  death_percent : 0.0
+  localInfection : False
+  nation_cd : VUT
+  patient_cnt : 3
+  patient_diff : 0
+}
+}
+
+성별·연령별 현황 데이터 조회 기준시 : (4.13. 00시 기준)
+
+{
+남성 : {
+  확진자(%) : ('55,001', '(49.69)')
+  사망자(%) : ('885', '(49.86)')
+  치명률 : 1.61
+}
+여성 : {
+  확진자(%) : ('55,687', '(50.31)')
+  사망자(%) : ('890', '(50.14)')
+  치명률 : 1.6
+}
+}
+
+{
+80이상 : {
+  확진자(%) : ('4,961', '(4.48)')
+  사망자(%) : ('980', '(55.21)')
+  치명률 : 19.75
+}
+70-79 : {
+  확진자(%) : ('8,114', '(7.33)')
+  사망자(%) : ('503', '(28.34)')
+  치명률 : 6.2
+}
+60-69 : {
+  확진자(%) : ('17,134', '(15.48)')
+  사망자(%) : ('207', '(11.66)')
+  치명률 : 1.21
+}
+50-59 : {
+  확진자(%) : ('20,454', '(18.48)')
+  사망자(%) : ('61', '(3.44)')
+  치명률 : 0.3
+}
+40-49 : {
+  확진자(%) : ('16,244', '(14.68)')
+  사망자(%) : ('14', '(0.79)')
+  치명률 : 0.09
+}
+30-39 : {
+  확진자(%) : ('14,857', '(13.42)')
+  사망자(%) : ('7', '(0.39)')
+  치명률 : 0.05
+}
+20-29 : {
+  확진자(%) : ('16,512', '(14.92)')
+  사망자(%) : ('3', '(0.17)')
+  치명률 : 0.02
+}
+10-19 : {
+  확진자(%) : ('7,667', '(6.93)')
+  사망자(%) : ('0', '(0.00)')
+  치명률 : -
+}
+0-9 : {
+  확진자(%) : ('4,745', '(4.29)')
+  사망자(%) : ('0', '(0.00)')
+  치명률 : -
+}
+}
+
+공공데이터활용지원센터_코로나19 예방접종센터 현황_20210407.csv
+(
+코로나19 중앙 예방접종센터 : {
+  센터유형 : 중앙/권역
+  운영기관 : 국립중앙의료원
+  시설명 : 국립중앙의료원 D동
+  우편번호 : 04562
+  주소 : 서울특별시 중구 을지로 39길 29
+}
+코로나19 중부권역 예방접종센터 : {
+  센터유형 : 중앙/권역
+  운영기관 : 순천향대 천안병원
+  시설명 : 천안시 실내배드민턴장 1층
+  우편번호 : 31212
+  주소 : 충청남도 천안시 동남구 천안대로 357
+}
+코로나19 호남권역 예방접종센터 : {
+  센터유형 : 중앙/권역
+  운영기관 : 조선대병원
+  시설명 : 조선대학교병원 의성관 5층
+  우편번호 : 61452
+  주소 : 광주광역시 동구 필문대로 365
+}
+코로나19 영남권역 예방접종센터 : {
+  센터유형 : 중앙/권역
+  운영기관 : 양산 부산대병원
+  시설명 : 양산 부산대병원 기숙사동 1층
+  우편번호 : 50612
+  주소 : 경상남도 양산시 물금읍 금오로 20
+}
+코로나19 대구광역시 중구 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 계명대학교 대구동산병원 별관
+  우편번호 : 41931
+  주소 : 대구시 중구 달성로 56
+}
+코로나19 서울특별시 성동구 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 성동구청 대강당(3층)
+  우편번호 : 04750
+  주소 : 서울특별시 성동구 고산자로 270
+}
+코로나19 부산광역시 부산진구 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 부산시민공원 시민사랑채
+  우편번호 : 47197
+  주소 : 부산 부산진구 시민공원로 73
+}
+코로나19 인천광역시 연수구 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 선학경기장 선학체육관
+  우편번호 : 21908
+  주소 : 인천광역시 연수구 경원대로 526
+}
+코로나19 광주광역시 서구 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 염주종합체육관
+  우편번호 : 62048
+  주소 : 광주광역시 서구 금화로 278
+}
+코로나19 대전광역시 유성구 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 유성종합스포츠센터
+  우편번호 : 34128
+  주소 : 대전광역시 유성구 유성대로 976
+}
+코로나19 울산광역시 중구 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 동천체육관
+  우편번호 : 44497
+  주소 : 울산시 중구 염포로 85
+}
+코로나19 세종특별자치시 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 남세종종합청소년센터
+  우편번호 : 30099
+  주소 : 세종특별자치시 달빛1로 227
+}
+코로나19 경기도 수원시 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 아주대 실내체육관
+  우편번호 : 16499
+  주소 : 경기도 수원시 영통구 월드컵로 206
+}
+코로나19 경기도 고양시 일산동구 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 고양꽃전시관
+  우편번호 : 10400
+  주소 : 경기도 고양시 일산동구 호수로 595
+}
+코로나19 강원도 원주시 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 치악체육관
+  우편번호 : 26447
+  주소 : 강원도 원주시 서원대로 279
+}
+코로나19 충청북도 청주시 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 상당구청 스포츠센터
+  우편번호 : 28806
+  주소 : 충청북도 청주시 상당구 남일면 단재로 466
+}
+코로나19 충청남도 천안시 서북구 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 천안시 실내테니스장
+  우편번호 : 31157
+  주소 : 충남 천안시 서북구 번영로 208
+}
+코로나19 전라북도 전주시 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 화산체육관
+  우편번호 : 54984
+  주소 : 전주시 완산구 백제대로 310
+}
+코로나19 전라남도 목포시 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 목포실내체육관
+  우편번호 : 58608
+  주소 : 전남 목포시 대양로 286
+}
+코로나19 경상북도 포항시 남구 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 포항종합운동장 실내체육관
+  우편번호 : 37832
+  주소 : 경북 포항시 남구 희망대로 810
+}
+코로나19 경상남도 창원시 마산구 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 마산체육관
+  우편번호 : 51323
+  주소 : 경남 창원시 마산회원구 삼호로 63
+}
+코로나19 제주특별자치도 제주시 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 한라체육관
+  우편번호 : 63189
+  주소 : 제주시 서광로2길 24
+}
+코로나19 서울특별시 중랑구 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 중랑문화체육관
+  우편번호 : 02261
+  주소 : 서울특별시 중랑구 사가정로72길47
+}
+코로나19 서울특별시 성북구 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 성북아트홀(구청4층)
+  우편번호 : 02848
+  주소 : 서울특별시 성북구 보문로 168
+}
+코로나19 서울특별시 노원구 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 노원구민체육센터
+  우편번호 : 01741
+  주소 : 서울특별시 노원구 노원로22길 1
+}
+코로나19 서울특별시 은평구 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 은평문화 예술회관
+  우편번호 : 03381
+  주소 : 서울특별시 은평구 녹번로 16
+}
+코로나19 서울특별시 동작구 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 사당종합체육관
+  우편번호 : 06989
+  주소 : 서울특별시 동작구 사당로27길 232
+}
+코로나19 서울특별시 송파구 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 송파구 체육문화회관
+  우편번호 : 05771
+  주소 : 서울특별시 송파구 양산로15
+}
+코로나19 부산광역시 남구 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 남구국민체육센터
+  우편번호 : 48563
+  주소 : 부산광역시 남구 백운포로 110
+}
+코로나19 인천광역시 서구 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 인천아시아드주경기장
+  우편번호 : 22717
+  주소 : 인천광역시 서구 봉수대로 806
+}
+코로나19 광주광역시 남구 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 남구다목적체육관
+  우편번호 : 61711
+  주소 : 광주광역시 남구 화산로 110
+}
+코로나19 울산광역시 남구 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 남구국민체육센터
+  우편번호 : 44766
+  주소 : 울산광역시 남구 여천로 38
+}
+코로나19 경기도 성남시 분당구 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 탄천종합운동장 체육회관 이벤트홀
+  우편번호 : 13495
+  주소 : 경기도 성남시 분당구 탄천로 215
+}
+코로나19 경기도 안양시 동안구 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 안양종합운동장 보조경기장
+  우편번호 : 13918
+  주소 : 경기도 안양시 동안구 평촌대로 389
+}
+코로나19 경기도 남양주시 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 남양주 체육문화센터
+  우편번호 : 12244
+  주소 : 경기도 남양주시 다산 지금로 91
+}
+코로나19 강원도 강릉시 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 강릉아레나
+  우편번호 : 25472
+  주소 : 강원도 강릉시 수리골길 102
+}
+코로나19 강원도 춘천시 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 봄내체육관
+  우편번호 : 24243
+  주소 : 강원도 춘천시 평화로 25
+}
+코로나19 강원도 삼척시 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 삼척체육관
+  우편번호 : 25909
+  주소 : 강원도 삼척시 동해대로 4234
+}
+코로나19 충청북도 충주시 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 충주체육관
+  우편번호 : 27371
+  주소 : 충청북도 충주시 예성로 266
+}
+코로나19 충청북도 음성군 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 음성실내체육관
+  우편번호 : 27704
+  주소 : 충청북도 음성군 설성로 47
+}
+코로나19 충청남도 아산시 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 이순신종합운동장 복합스포츠센터
+  우편번호 : 31528
+  주소 : 충청남도 아산시 남부로 370-24
+}
+코로나19 충청남도 논산시 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 시민운동장
+  우편번호 : 32993
+  주소 : 충청남도 논산시 체육로 110
+}
+코로나19 전라북도 군산시 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 월명종합경기장 월명체육관
+  우편번호 : 54078
+  주소 : 전라북도 군산시 번영로 281
+}
+코로나19 전라북도 정읍시 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 정읍실내체육관
+  우편번호 : 56158
+  주소 : 전라북도 정읍시 서부로 9
+}
+코로나19 전라북도 남원시 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 춘향골 체육관
+  우편번호 : 55766
+  주소 : 전라북도 남원시 충정로 341
+}
+코로나19 전라남도 여수시 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 흥국체육관
+  우편번호 : 59676
+  주소 : 전라남도 여수시 선소로 93
+}
+코로나19 전라남도 순천시 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 순천대학교 국제문화컨벤션관
+  우편번호 : 57922
+  주소 : 전라남도 순천시 중앙로 235
+}
+코로나19 경상남도 진주시 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 진주종합실내체육관(초전동)
+  우편번호 : 52733
+  주소 : 경상남도 진주시 남강로 1655
+}
+코로나19 경상남도 통영시 예방접종센터 : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 충무체육관
+  우편번호 : 53047
+  주소 : 경상남도 통영시 북문2길 34
+}
+코로나19 서울특별시 중구 예방접종센터  : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 충무스포츠센터
+  우편번호 : 04569
+  주소 : 서울특별시 중구퇴계로 387
+}
+코로나19 부산광역시 금정구  예방접종센터  : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 금정문화회관 생활문화관
+  우편번호 : 46251
+  주소 : 부산광역시 금정구 체육공원로 7
+}
+코로나19 부산광역시 북구  예방접종센터  : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 북구문화예술회관
+  우편번호 : 46547
+  주소 : 부산광역시 북구 금곡대로 46번길 50
+}
+코로나19 인천광역시 부평구 예방접종센터  : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 삼산월드체육관
+  우편번호 : 21343
+  주소 : 인천광역시 부평구 체육관로 60
+}
+코로나19 대구광역시 동구 예방접종센터  : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 아양아트센터
+  우편번호 : 41179
+  주소 : 대구광역시 동구 효동로2길 24
+}
+코로나19 대구광역시 달서구 예방접종센터  : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 성서산업단지 다목적체육관
+  우편번호 : 42718
+  주소 : 대구광역시 달서구 성서공단로22길 25
+}
+코로나19 울산광역시 북구 예방접종센터  : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 오토밸리복지센터
+  우편번호 : 44248
+  주소 : 울산광역시 북구 산업로 1020
+}
+코로나19 경기도 안산시 단원구 예방접종센터  : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 올림픽기념관 체육관
+  우편번호 : 15335
+  주소 : 경기 안산시 단원구 적금로202
+}
+코로나19 경기도 용인시 처인구 예방접종센터  : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 용인미르스타디움
+  우편번호 : 16997
+  주소 : 경기 용인시 처인구 동백죽전대로 61
+}
+코로나19 경기도 화성시 예방접종센터  : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 동탄나래울 종합사회복지관
+  우편번호 : 18427
+  주소 : 경기 화성시 여울로2길 33
+}
+코로나19 경기도 시흥시 예방접종센터  : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 정왕평생학습관
+  우편번호 : 15055
+  주소 : 경기 시흥시 정왕대로 233번길 21
+}
+코로나19 경기도 하남시 예방접종센터  : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 하남시 코로나19 임시 예방접종센터(미사보건센터)
+  우편번호 : 12909
+  주소 : 경기 하남시 미사강변대로 200
+}
+코로나19 충청남도 서산시 예방접종센터  : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 서산시민체육관
+  우편번호 : 31963
+  주소 : 충남 서산시 안견로 661
+}
+코로나19 전라남도 광양시 예방접종센터  : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 광양실내체육관
+  우편번호 : 57728
+  주소 : 전남 광양시 봉강면 매천로 695-20
+}
+코로나19 전라남도 구례군 예방접종센터  : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 구례실내체육관
+  우편번호 : 57635
+  주소 : 전남 구례군 구례읍 서시천로 76-11
+}
+코로나19 전라남도 해남군 예방접종센터  : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 건강누리센터
+  우편번호 : 59038
+  주소 : 전남 해남군 해남로 46
+}
+코로나19 전라남도 영광군 예방접종센터  : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 영광스포티움 실내보조체육관
+  우편번호 : 57035
+  주소 : 전남 영광군 영광읍 월현로 170
+}
+코로나19 경상북도 포항시 북구 예방접종센터  : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 양덕한마음체육관
+  우편번호 : 37598
+  주소 : 경북 포항시 북구 새천년대로1460
+}
+코로나19 경상북도 안동시 예방접종센터  : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 안동체육관 실내보조경기장
+  우편번호 : 36709
+  주소 : 경북 안동시 육사로 205
+}
+코로나19 경상북도 영천시 예방접종센터  : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 영천 생활체육관
+  우편번호 : 38839
+  주소 : 경북 영천시 운동장로 55
+}
+코로나19 경상북도 고령군 예방접종센터  : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 주산체육관
+  우편번호 : 40136
+  주소 : 경북 고령군 대가야읍 주산순환길 91
+}
+코로나19 경상북도 칠곡군 예방접종센터  : {
+  센터유형 : 지역
+  운영기관 : 
+  시설명 : 교육문화회관 사회교육관
+  우편번호 : 39872
+  주소 : 경북 칠곡군 왜관읍 관문로 1길 32
+}
+)
+
+한국언론진흥재단_코로나19이후국민의일상변화조사_코로나19로 인한 감정 변화_20201231.csv
+(
+걱정 또는 스트레스 : {
+  증가 : 78
+  변화 없음 : 19
+  감소 : 3
+}
+불안 또는 두려움 : {
+  증가 : 65.4
+  변화 없음 : 30.2
+  감소 : 4.4
+}
+짜증 또는 화 : {
+  증가 : 60.8
+  변화 없음 : 35.5
+  감소 : 3.7
+}
+분노 또는 혐오 : {
+  증가 : 59.5
+  변화 없음 : 36.5
+  감소 : 4
+}
+무기력감 또는 좌절감 : {
+  증가 : 52.4
+  변화 없음 : 43
+  감소 : 4.6
+}
+외로움 또는 우울함 : {
+  증가 : 46.4
+  변화 없음 : 50.4
+  감소 : 3.2
+}
+자긍심 또는 자부심 : {
+  증가 : 35.4
+  변화 없음 : 40.3
+  감소 : 24.3
+}
+감사함 또는 안도감 : {
+  증가 : 29.3
+  변화 없음 : 46.1
+  감소 : 24.6
+}
+)
+
+한국언론진흥재단_코로나19이후국민의일상변화조사_포스트 코로나 사회에 대한 전망_20201231.csv
+(
+집에서 여가를 즐기는 문화가 확산할 것이다 : {
+  그렇다 : 67
+  보통이다 : 24.8
+  그렇지 않다 : 8.2
+}
+특정 집단에 대한 혐오와 차별이 증가할 것이다 : {
+  그렇다 : 66.9
+  보통이다 : 27.5
+  그렇지 않다 : 5.6
+}
+사회 구성원 간 격차가 커질 것이다 : {
+  그렇다 : 63
+  보통이다 : 30.4
+  그렇지 않다 : 6.6
+}
+보호무역주의가 강화되는 등 국제 경제의 구조가 재편될 것이다 : {
+  그렇다 : 61.2
+  보통이다 : 33.2
+  그렇지 않다 : 5.6
+}
+재난, 감염병 상황시 개인정보 공개·사생활 침해 등 개인의 자유가 제한될 것이다 : {
+  그렇다 : 56
+  보통이다 : 29.7
+  그렇지 않다 : 14.3
+}
+한국의 국제적 위상이 올라갈 것이다 : {
+  그렇다 : 55.6
+  보통이다 : 28.1
+  그렇지 않다 : 16.3
+}
+)
